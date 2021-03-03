@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+label {
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.todo {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.todo:hover {
+  background-color: rgb(165, 46, 65);
+}
+
+.complete {
+  text-decoration: line-through;
+  color: aquamarine;
+}

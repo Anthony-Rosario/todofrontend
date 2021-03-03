@@ -7,9 +7,9 @@ import {
 import Header from './components/Header.js';
 import Home from './HomePage/Home.js';
 import PrivateRoute from './components/PrivateRoute.js';
-import SignUpPage from './Auth/SignUp,js';
-import LoginPage from './Auth/LoginPage,js';
-import TodosListPage from './Todos/TodoListPage,js';
+import SignUpPage from './Auth/SignupPage.js';
+import LoginPage from './Auth/LoginPage.js';
+import TodosListPage from './todos/TodoListPage.js';
 import { getUserFromLocalStorage, putUserInLocalStorage } from './localStorageutils.js';
 
 export default class App extends Component {
